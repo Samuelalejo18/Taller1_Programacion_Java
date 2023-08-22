@@ -15,14 +15,14 @@ public class IMC {
         double IMC = Peso / (Estatura * Estatura);
 
         if (IMC < 22 && Edad < 45) {
-            System.out.print("su IMC es de " + IMC + ", su condición de riesgo es baja");
+            System.out.print("su IMC es de " + IMC + " y por su edad de "+Edad+" años, su condición de riesgo es baja");
         } else if (IMC < 22 && Edad >= 45) {
-            System.out.print("su IMC es de " + IMC + ", su condición de riesgo es Medio");
+            System.out.print("su IMC es de " + IMC + " y por su edad de "+Edad+" años , su condición de riesgo es Medio");
         } else if (IMC >= 22 && Edad < 45) {
-            System.out.print("su IMC es de " + IMC + ", su condición de riesgo es Medio");
+            System.out.print("su IMC es de " + IMC + " y por su edad de "+Edad+"  años, su condición de riesgo es Medio");
         } else if (IMC >= 22 && Edad >= 45) {
-            System.out.print("su IMC es de " + IMC + ", su condición de riesgo es alto");
+            System.out.print("su IMC es de " + IMC + " y por su edad de "+Edad+"  años, su condición de riesgo es alto");
+        }
         }
 
     }
-}
